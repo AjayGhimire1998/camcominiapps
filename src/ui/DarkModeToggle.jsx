@@ -8,7 +8,7 @@ const DarkModeToggle = () => {
     <button
       onClick={toggleMode}
       className={`relative inline-flex h-8 w-16 items-center rounded-full transition-colors duration-300 ${
-        darkMode ? "bg-gray-700" : "bg-gray-300"
+        darkMode ? "bg-gray-700" : "bg-gray-900"
       }`}
     >
       <span

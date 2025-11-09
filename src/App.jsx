@@ -5,11 +5,13 @@ import Home from "./pages/Home/Home";
 import { DarkModeProvider } from "./contexts/DarkModeContext";
 function App() {
   return (
-    <DarkModeProvider>
-      <Header />
-      <Home />
-      <Footer />
-    </DarkModeProvider>
+    <div className="dark:bg-[#191919] dark:text-white">
+      <DarkModeProvider>
+        <Header />
+        <Home />
+        <Footer />
+      </DarkModeProvider>
+    </div>
   );
 }
 

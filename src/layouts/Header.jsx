@@ -4,7 +4,7 @@ import { DarkModeContext } from "../contexts/DarkModeContext";
 
 const Header = () => {
   return (
-    <header className="top-0 p-4 fixed w-full max-w-7xl bg-[#191919] dark:bg-white flex justify-between items-center z-50 ">
+    <header className="top-0 pl-12 pr-12 pt-8 pb-8 max-w-7xl fixed w-full  bg-white dark:bg-[#191919] dark:text-white flex justify-between items-center align-middle z-50 ">
       <div>
         <h2 className="font-extrabold text-[35px]">MiniAPPS</h2>
       </div>
