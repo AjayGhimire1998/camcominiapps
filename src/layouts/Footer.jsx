@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" w-full flex justify-center text-center text-sm p-4 border-t">
-      Made with ❤️ by Ajay Ghimire · © 2025
+    <footer className=" bottom-0 flex justify-center text-center  p-4  shadow-sm dark:shadow-amber-50 bg-[#ffcc00] shadow-black  dark:bg-[#121212]">
+      <p className="text-sm"> Made by Ajay Ghimire · © 2025</p>
     </footer>
   );
 };
