@@ -4,12 +4,13 @@ import { DarkModeContext } from "../contexts/DarkModeContext";
 
 const Header = () => {
   return (
-    <header className="top-0 pl-12 pr-12 pt-8 pb-8 max-w-7xl fixed w-full  bg-white dark:bg-[#191919] dark:text-white flex justify-between items-center align-middle z-50 ">
-      <div>
-        <h2 className="font-extrabold text-[35px]">MiniAPPS</h2>
-      </div>
-      <div>
+    <header className="top-0 sticky w-full bg-white dark:bg-[#191919] dark:text-white z-50 flex justify-center">
+      <div className="w-7xl flex justify-between items-center align-middle p-8">
         <div>
+          <h2 className="font-extrabold text-[35px]">MiniAPPS</h2>
+        </div>
+
+        <div className="flex justify-center">
           <DarkModeToggle />
         </div>
       </div>
