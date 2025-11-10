@@ -5,7 +5,7 @@ import { DarkModeContext } from "../../contexts/DarkModeContext";
 const Home = () => {
   const { darkMode } = useContext(DarkModeContext);
   return (
-    <main className="w-7xl mt-2">
+    <main className="md:w-7xl  mt-2 max-sm:flex max-sm:items-center max-sm:justify-center px-8 max-sm:p-4">
       <div className=" h-auto max-w-2xs cursor-pointer hover:scale-102 shadow-lg shadow-black dark:shadow-white rounded-3xl flex flex-col justify-between align-middle items-center ">
         <div className="flex flex-col align-middle items-center p-2 gap-1">
           <Shapes
