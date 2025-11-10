@@ -5,7 +5,7 @@ const DarkModeContext = createContext();
 const DarkModeProvider = (props) => {
   const savedPreference = localStorage.getItem("darkMode");
   const [darkMode, setDarkMode] = useState(
-    savedPreference ? JSON.parse(savedPreference) : true
+    savedPreference ? JSON.parse(savedPreference) : false
   );
 
   useEffect(() => {
