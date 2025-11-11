@@ -4,6 +4,7 @@ import Footer from "./layouts/Footer";
 import Home from "./pages/Home/Home";
 import { DarkModeProvider } from "./contexts/DarkModeContext";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ToleranceChecker from "./pages/ToleranceChecker/ToleranceChecker";
 function App() {
   return (
     <>
@@ -13,7 +14,7 @@ function App() {
           <main className="flex flex-row justify-center ">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<Home />} />
+              <Route path="/tolerance-checker" element={<ToleranceChecker />} />
             </Routes>
           </main>
           <Footer />
