@@ -16,20 +16,24 @@ const ToleranceChecker = () => {
           BACK TO HOME
         </Link>
       </div>
-      <div className="flex max-[500px]:flex-col gap-5 max-sm:gap-2 justify-start mt-6 font-semibold">
-        <div>
-          <button className="border rounded-2xl flex align-middle items-center px-3 bg-[#ffcc00] dark:bg-[#121212] max-sm:text-xs">
-            Material Type <ChevronDown />
+      <div className="flex max-[700px]:flex-col gap-5 max-sm:gap-2 justify-end mt-6 font-semibold max-sm:text-sm">
+        <div className="flex gap-1 items-center align-middle">
+          <span>Material Type </span>
+          <button className="border rounded-2xl flex align-middle items-center px-3 max-sm:px-2 bg-[#ffcc00] dark:bg-[#121212] max-sm:text-xs">
+            Housing Bores <ChevronDown size={20} />
           </button>
         </div>
-        <div>
+        <div className="flex gap-1 items-center align-middle">
+          <span>Specification</span>
           <button className="border rounded-2xl flex align-middle items-center  px-3 bg-[#ffcc00] dark:bg-[#121212] max-sm:text-xs">
-            Specification <ChevronDown />
+            H8
+            <ChevronDown size={20} />
           </button>
         </div>
-        <div>
+        <div className="flex gap-1 items-center align-middle">
+          <span>IT Grade</span>
           <button className="border rounded-2xl flex align-middle items-center  px-3 bg-[#ffcc00] dark:bg-[#121212] max-sm:text-xs">
-            IT Grade <ChevronDown />
+            IT6 <ChevronDown size={20} />
           </button>
         </div>
       </div>
