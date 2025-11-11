@@ -22,7 +22,7 @@ const Home = () => {
             </p>
           </div>
           <div className=" w-full bottom-0 flex flex-col  bg-[#ffcc00] rounded-b-3xl p-1 ">
-            <button className="flex items-center align-middle justify-center gap-2 dark:text-black cursor-pointer text-lg font-semibold max-sm:text-sm">
+            <button className="flex items-center align-middle justify-center gap-2 dark:text-black cursor-pointer text-lg font-semibold max-sm:text-xs">
               Tolerance Checker
               <span>
                 <MoveRight strokeWidth="3px" />
@@ -33,7 +33,7 @@ const Home = () => {
       </Link>
 
       <Link to="/">
-        <div className=" absolute bg-[#ffcc00] rounded-4xl px-2 flex">
+        <div className=" absolute bg-[#ffcc00] rounded-4xl px-2 flex z-50 border">
           <span className="text-[10px] font-semibold dark:text-black">
             Coming soon
           </span>
@@ -53,7 +53,7 @@ const Home = () => {
           </div>
           <div className=" w-full bottom-0 flex flex-col  bg-[#ffcc00] rounded-b-3xl p-1 ">
             <button className="flex items-center align-middle justify-center gap-2 dark:text-black cursor-pointer text-lg font-semibold max-sm:text-xs">
-              Tolerance Checker
+              Radial Clearance
               <span>
                 <MoveRight strokeWidth="3px" />
               </span>
