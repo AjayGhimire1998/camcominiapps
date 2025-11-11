@@ -13,9 +13,15 @@ const Dropdown = ({ type }) => {
     setTypeRequested(type);
   }, []);
   return (
-    <div className="w-auto border flex flex-col mt-1 absolute">
+    <div className="w-auto border flex flex-col mt-1 rounded-md bg-[#ffcc00] dark:bg-[#fefefe] dark:text-black ">
       {dropdownValues[typeRequested].map((val, i) => {
-        return <span id={i}>{val}</span>;
+        return (
+          <div className="border-b flex rounded-md items-center align-middle justify-center cursor-pointer hover:bg-[#f4c301] dark:hover:bg-gray-200">
+            <span id={i} className="">
+              {val}
+            </span>
+          </div>
+        );
       })}
     </div>
   );
