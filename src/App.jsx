@@ -11,7 +11,7 @@ function App() {
       <DarkModeProvider>
         <div className="dark:bg-[#191919] dark:text-white min-h-screen">
           <Header />
-          <main className="flex flex-row justify-center ">
+          <main className="flex flex-row justify-center mt-4 max-sm:mt-2">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/tolerance-checker" element={<ToleranceChecker />} />
