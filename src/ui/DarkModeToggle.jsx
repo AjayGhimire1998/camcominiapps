@@ -9,8 +9,8 @@ const DarkModeToggle = () => {
       onClick={toggleMode}
       className={`cursor-pointer relative inline-flex h-6 w-14 max-sm:h-6 max-sm:w-14 items-center rounded-full transition-colors duration-300 ${
         darkMode
-          ? "bg-gray-700 shadow-2xl shadow-white   "
-          : "bg-gray-900 shadow-2xl shadow-black"
+          ? "bg-[#191919] shadow-2xl shadow-white z-50"
+          : "bg-[#121212] shadow-2xl shadow-black"
       }`}
     >
       <span
