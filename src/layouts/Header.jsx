@@ -8,7 +8,7 @@ const Header = () => {
         <div>
           <Link
             to="/"
-            className="font-extrabold text-[35px] max-sm:text-[25px] "
+            className="font-extrabold text-[35px] max-sm:text-[20px] "
           >
             MiniAPPS
           </Link>
