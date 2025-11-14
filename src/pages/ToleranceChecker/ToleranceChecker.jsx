@@ -29,7 +29,7 @@ const ToleranceChecker = () => {
                 setDropdownRequested("material");
                 setDropdownVisible(!dropdownVisible);
               }}
-              className="border rounded-md flex align-middle items-center px-2 max-sm:px-1.5 bg-[#ffcc00] dark:bg-[#fefefe] dark:text-black max-sm:text-xs"
+              className="border rounded-md flex align-middle items-center px-2 py-0.5 max-sm:px-1.5 bg-[#ffcc00] dark:bg-[#fefefe] dark:text-black max-sm:text-xs"
             >
               Housing Bores <ChevronDown size={20} />
             </button>
@@ -47,7 +47,7 @@ const ToleranceChecker = () => {
                 setDropdownRequested("spec");
                 setDropdownVisible(!dropdownVisible);
               }}
-              className="border rounded-md flex align-middle items-center px-2 max-sm:px-1.5 bg-[#ffcc00] dark:bg-[#fefefe] dark:text-black max-sm:text-xs"
+              className="border rounded-md flex align-middle items-center px-2 py-0.5  max-sm:px-1.5 bg-[#ffcc00] dark:bg-[#fefefe] dark:text-black max-sm:text-xs"
             >
               H8 <ChevronDown size={20} />
             </button>
@@ -64,7 +64,7 @@ const ToleranceChecker = () => {
                 setDropdownRequested("it");
                 setDropdownVisible(!dropdownVisible);
               }}
-              className="border rounded-md flex align-middle items-center px-3 max-sm:px-1.5 bg-[#ffcc00] dark:bg-[#fefefe] dark:text-black max-sm:text-xs"
+              className="border rounded-md flex align-middle items-center px-2 py-0.5 max-sm:px-1.5 bg-[#ffcc00] dark:bg-[#fefefe] dark:text-black max-sm:text-xs"
             >
               IT6 <ChevronDown size={20} />
             </button>

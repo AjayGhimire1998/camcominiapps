@@ -13,13 +13,16 @@ const Dropdown = ({ type }) => {
     setTypeRequested(type);
   }, []);
   return (
-    <div className="w-auto border flex flex-col mt-1 rounded-md bg-[#ffcc00] dark:bg-[#fefefe] dark:text-black ">
+    <div className="w-auto border absolute flex flex-col justify-end mt-1 rounded-md bg-[#ffcc00] dark:bg-[#fefefe] dark:text-[#000000] ">
       {dropdownValues[typeRequested].map((val, i) => {
         return (
-          <div className="border-b flex rounded-md items-center align-middle justify-center cursor-pointer hover:bg-[#f4c301] dark:hover:bg-gray-200">
-            <span id={i} className="">
-              {val}
-            </span>
+          <div className="border-b flex items-center align-middle justify-center ">
+            <div
+              id={i}
+              className="w-full m-0.5 cursor-pointer rounded-md hover:bg-[#f4c301] dark:hover:bg-gray-200"
+            >
+              <span>{val}</span>
+            </div>
           </div>
         );
       })}
