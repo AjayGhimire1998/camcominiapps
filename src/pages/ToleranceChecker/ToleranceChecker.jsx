@@ -18,8 +18,8 @@ const ToleranceChecker = () => {
       </div>
       <div className="flex max-[690px]:flex-col gap-5 max-sm:gap-2 justify-end mt-6 font-semibold ">
         <Dropdown type={"material"} label={"Material Type"} />
-        <Dropdown type={"spec"} label={"Specification"} />
-        <Dropdown type={"it"} label={"IT"} />
+        <Dropdown type={"spec"} label={"Specification"} disabled={true} />
+        <Dropdown type={"it"} label={"IT"} disabled={true} />
       </div>
     </main>
   );
